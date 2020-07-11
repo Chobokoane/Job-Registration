@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <!-- Here you put the rest of your current view-->
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_gradient">
+
+        <TextView
+            android:id="@+id/loginscrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Register Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/fstTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:text="Email"/>
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:ems="10"/>
+            <TextView
+                android:id="@+id/secTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Password"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/thirdTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Confirm Password"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/txtPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="textPassword"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/thirdTx"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/txtjd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="textPassword"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/thirdlast"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="textPassword"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/cellphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell Number"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/cellphoneEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="textPassword"
+                android:ems="10" />
+            <TextView
+                android:id="@+id/IdNumber"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:text="Identity Number"
+                android:layout_marginLeft="100dp" />
+            <EditText
+                android:id="@+id/IdNumberEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="text"
+                android:ems="10" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="328dp"
+            android:hint="Qualification"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="Cancel">
+            </Button>
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save">
+            </Button>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
